@@ -4,6 +4,7 @@ const axios = require('axios');
 
 (async () => {
     try {
+        const githubAccessToken = core.getInput('github-access-token', { required: true});
         const url = 'https://api.dependabot.com/release_notifications/private';
         const data = {
             "name": core.getInput('dependency-name', { required: true}),
