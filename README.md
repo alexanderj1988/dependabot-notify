@@ -37,7 +37,7 @@ Possible values:
 - `github_actions`
 
 ## Example usage
-````
+```
 - uses:  alexanderj1988/dependabot-notify@v1
   with:
     github-access-token: ${{secrets.GITHUB_TOKEN}}
