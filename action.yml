@@ -1,0 +1,23 @@
+name: 'Dependabot Notify'
+description: 'Github action for notifieing Dependabot of a private dependency release'
+inputs:
+  github-access-token:
+    description: 'GitHub access token with "repo" permissions'
+    required: true
+  dependency-name:
+    description: 'Your dependency name for example: org.kohsuke:github-api'
+    required: true
+  dependency-version:
+    description: 'Your dependency version for example: 1.5.0'
+    required: true
+  dependency-package-manager:
+    description: "Your dependency manager for example: npm_and_yarn. Possible values: 'bundler', 'composer', 'docker', 'maven', 'npm_and_yarn', 'elm', 'submodules', 'hex', 'cargo', 'gradle', 'nuget', 'dep', 'go_modules', 'pip', 'terraform' or 'github_actions'"
+    required: true
+    default: 'npm_and_yarn'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node12'
+  main: 'index.js'
+

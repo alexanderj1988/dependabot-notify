@@ -1,0 +1,32 @@
+{
+  "name": "dependabot-notify",
+  "version": "1.0.0",
+  "description": "Github action for notifieing Dependabot of a private dependency release",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderj1988/dependabot-notify.git"
+  },
+  "keywords": [
+    "dependabot",
+    "github",
+    "actions",
+    "github-actions",
+    "github"
+  ],
+  "author": "Alexander Jandousek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderj1988/dependabot-notify/issues"
+  },
+  "homepage": "https://github.com/alexanderj1988/dependabot-notify#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.1.1",
+    "axios": "^0.19.2"
+  }
+}
