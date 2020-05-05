@@ -20,8 +20,8 @@ const axios = require('axios');
                 }
             });
 
-        if(res.statusCode != 204) {
-            throw new Error(`unexpected status code: ${res.statusCode}`);
+        if(result.statusCode != 204) {
+            throw new Error(`unexpected status code: ${result.statusCode}`);
         }
 
 
