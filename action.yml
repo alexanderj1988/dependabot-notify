@@ -1,5 +1,8 @@
 name: 'Dependabot Notify'
 description: 'Github action for notifieing Dependabot of a private dependency release'
+branding:
+  icon: 'bell'
+  color: 'gray-dark'
 inputs:
   github-access-token:
     description: 'GitHub access token with "repo" permissions'
