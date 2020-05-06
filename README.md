@@ -38,7 +38,7 @@ Possible values:
 
 ## Example usage
 ```
-- uses:  alexanderj1988/dependabot-notify@v1
+- uses:  alexanderj1988/dependabot-notify@1.0.0
   with:
     github-access-token: ${{secrets.GITHUB_TOKEN}}
     dependency-name: "@scope/your-package-name"
