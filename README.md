@@ -41,7 +41,7 @@ Possible values:
 - uses:  alexanderj1988/dependabot-notify@v1
   with:
     github-access-token: ${{secrets.GITHUB_TOKEN}}
-    dependency-name: ${{github.repository}}
-    dependency-version: ${GITHUB_REF:10}
+    dependency-name: "@scope/your-package-name"
+    dependency-version: "1.0.0"
 ```
   
