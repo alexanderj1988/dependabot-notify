@@ -4,7 +4,6 @@
   "description": "Github action for notifieing Dependabot of a private dependency release",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
