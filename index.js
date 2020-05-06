@@ -21,7 +21,7 @@ const axios = require('axios');
             });
 
         if(result.status != 204) {
-            throw new Error(`unexpected status code: ${result.statusCode}`);
+            throw new Error(`unexpected status code: ${result.status}`);
         }
 
 
