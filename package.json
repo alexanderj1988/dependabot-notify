@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/alexanderj1988/dependabot-notify#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^2.1.1",
     "axios": "^0.21.1"
   }
